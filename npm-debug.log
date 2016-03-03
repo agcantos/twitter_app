@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/gaby.cantos/.nvm/versions/node/v5.7.1/bin/node',
+1 verbose cli   '/Users/gaby.cantos/.nvm/versions/node/v5.7.1/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'wp:dev' ]
+2 info using npm@3.6.0
+3 info using node@v5.7.1
+4 verbose stack Error: Invalid name: "Twitter App front-end"
+4 verbose stack     at ensureValidName (/Users/gaby.cantos/.nvm/versions/node/v5.7.1/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:336:15)
+4 verbose stack     at Object.module.exports.fixNameField (/Users/gaby.cantos/.nvm/versions/node/v5.7.1/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:215:5)
+4 verbose stack     at /Users/gaby.cantos/.nvm/versions/node/v5.7.1/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:32:38
+4 verbose stack     at Array.forEach (native)
+4 verbose stack     at normalize (/Users/gaby.cantos/.nvm/versions/node/v5.7.1/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:31:15)
+4 verbose stack     at final (/Users/gaby.cantos/.nvm/versions/node/v5.7.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:338:5)
+4 verbose stack     at then (/Users/gaby.cantos/.nvm/versions/node/v5.7.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:113:5)
+4 verbose stack     at ReadFileContext.<anonymous> (/Users/gaby.cantos/.nvm/versions/node/v5.7.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:297:29)
+4 verbose stack     at ReadFileContext.callback (/Users/gaby.cantos/.nvm/versions/node/v5.7.1/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:76:16)
+4 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:324:13)
+5 verbose cwd /Users/gaby.cantos/Documents/Projects/checkr_twitter
+6 error Darwin 15.3.0
+7 error argv "/Users/gaby.cantos/.nvm/versions/node/v5.7.1/bin/node" "/Users/gaby.cantos/.nvm/versions/node/v5.7.1/bin/npm" "run" "wp:dev"
+8 error node v5.7.1
+9 error npm  v3.6.0
+10 error Invalid name: "Twitter App front-end"
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
